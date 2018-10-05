@@ -33,7 +33,7 @@ angular.module('antismash.ui.bacterial.as_job', [])
                 .then(function (resp) {
                     job_info.filename = resp.data.filename;
                     job_info.status = resp.data.status;
-                    job_info.short_status = resp.data.short_status;
+                    job_info.state = resp.data.state;
                     job_info.result_url = resp.data.result_url;
                     job_info.submitted = Date.parse(resp.data.added_ts);
                     job_info.last_changed = Date.parse(resp.data.last_changed_ts);
