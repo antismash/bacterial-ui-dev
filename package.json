@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/antismash/bacterial-ui#readme",
   "devDependencies": {
+    "bower": "^1.8.4",
+    "bower-npm-resolver": "^0.4.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-jasmine": "^2.4.0",
@@ -38,6 +40,5 @@
     "lite-server": "^2.2.0"
   },
   "dependencies": {
-    "bower-npm-resolver": "^0.4.0"
   }
 }
