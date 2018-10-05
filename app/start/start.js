@@ -9,7 +9,9 @@ angular.module('antismash.ui.bacterial.as_start', ['ngFileUpload'])
             vm.valid_gff_endings = '.gff,.gff3';
 
             // Defaullt values
-            vm.submission = {};
+            vm.submission = {
+                jobtype: 'antismash5',
+            };
             vm.extra_features = [
                 { id: 'knownclusterblast', description: 'KnownClusterBlast', default: true, legacy: true},
                 { id: 'clusterblast', description: 'ClusterBlast', default: false, legacy: true },
